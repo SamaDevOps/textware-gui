@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("samadhi995/nginx-login")
+       app = docker.build("samadhi995/jenkinspipeline")
     }
 
     stage('Test image') {
